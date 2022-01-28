@@ -7,9 +7,9 @@ There are endless possibilities for extending the capabilities of this class.
 
 You have been asked to develop a system that makes it easier to organize patient data. You will create a class that does the following:
 
-Takes in patient parameters regarding their personal information
-Contains methods that allow users to update their information
-Gives patients insight into their potential medical fees.
+- Takes in patient parameters regarding their personal information
+- Contains methods that allow users to update their information
+- Gives patients insight into their potential medical fees.
 
 Parameters:
 
@@ -20,11 +20,11 @@ smoker: patient smoking status, 0 for a non-smoker and 1 for a smoker
 
 1. Our first method will be estimated_insurance_cost(), which takes our instance’s parameters (representing our patient’s information) and returns their expected yearly medical fees.
 
-estimated_cost= 250 ∗ age − 128 ∗ sex + 370 ∗ bmi + 425 ∗ num_of_children + 24000 ∗ smoker − 12500
+     estimated_cost= 250 ∗ age − 128 ∗ sex + 370 ∗ bmi + 425 ∗ num_of_children + 24000 ∗ smoker − 12500
 
-Make another update method that modifies the num_of_children parameter.
+2. Make another update method that modifies the num_of_children parameter.
 
-2. if the patient has 1 offspring, we should see the following output:
+If the patient has 1 offspring, we should see the following output:
 
 {Patient Name} has {Patient Number of Children} child.
 Otherwise, we should see this output:
