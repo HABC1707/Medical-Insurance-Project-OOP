@@ -13,6 +13,8 @@ You have been asked to develop a system that makes it easier to organize patient
 
 Parameters:
 
+- name: patients first name
+- age: patient age
 - sex: patient’s biological identification, 0 for male and 1 for female
 - bmi: patient BMI
 - num_of_children: number of children patient has
