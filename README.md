@@ -13,21 +13,22 @@ You have been asked to develop a system that makes it easier to organize patient
 
 Parameters:
 
-sex: patient’s biological identification, 0 for male and 1 for female
-bmi: patient BMI
-num_of_children: number of children patient has
-smoker: patient smoking status, 0 for a non-smoker and 1 for a smoker
+- sex: patient’s biological identification, 0 for male and 1 for female
+- bmi: patient BMI
+- num_of_children: number of children patient has
+- smoker: patient smoking status, 0 for a non-smoker and 1 for a smoker
 
 1. Our first method will be estimated_insurance_cost(), which takes our instance’s parameters (representing our patient’s information) and returns their expected yearly medical fees.
 
-     estimated_cost= 250 ∗ age − 128 ∗ sex + 370 ∗ bmi + 425 ∗ num_of_children + 24000 ∗ smoker − 12500
+estimated_cost= 250 ∗ age − 128 ∗ sex + 370 ∗ bmi + 425 ∗ num_of_children + 24000 ∗ smoker − 12500
 
 2. Make another update method that modifies the num_of_children parameter.
 
-If the patient has 1 offspring, we should see the following output:
+- If the patient has 1 offspring, we should see the following output:
 
 {Patient Name} has {Patient Number of Children} child.
-Otherwise, we should see this output:
+
+- Otherwise, we should see this output:
 
 {Patient Name} has {Patient Number of Children} children.
 
